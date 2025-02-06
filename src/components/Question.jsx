@@ -39,8 +39,7 @@ function Question() {
       setIsAnimating(false);
       setNoButtonSize((prevSize) => Math.max(prevSize - 10, 20)); // Decrease size by 10% but not less than 20%
       setShowMessage(true);
-      setTimeout(() => setShowMessage(false), 3000); // Hide message after 3 seconds
-    }, 8000); // Duration of the animation
+    }, 1000); // Duration of the animation
   };
 
   const steps = [
@@ -72,7 +71,7 @@ function Question() {
       image: "/character/six.png",
     },
     {
-      content: `Will you be my Valentine this year and make my heart feel closer to yours?\n Please don't say No 😏`,
+      content: `Will you be my Valentine this year and make my heart feel closer to yours?\n Please don't say No 😢`,
       image: "/character/seven.png",
     },
   ];
@@ -187,9 +186,9 @@ function Question() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
-                    className="text-red-500 text-xl font-bold mt-0"
+                    className="text-gray-300 text-xl font-bold mt-0"
                   >
-                    Choose the available option
+                    Please choose the available option 😁
                   </motion.div>
                 )}
               </>
