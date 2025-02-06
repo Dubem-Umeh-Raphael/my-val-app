@@ -4,6 +4,10 @@
 - personalized password that connects the targeted user to view the couples pictures in the carousel
 - if the password is incorrect, do not worry you'll be viewing in as a guest, meaning that you will view pictures(default)
 
+# Clone the repo
+- [repo](https://github.com/Dubem-Umeh-Raphael/my-val-app.git)
+
+- and run npm install to get the dependencies
 
 
 Currently, two official plugins are available:
